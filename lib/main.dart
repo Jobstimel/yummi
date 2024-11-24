@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:yummi/pages/base_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Yummi',
       debugShowCheckedModeBanner: false,
-      home: Text("Yummi"),
+      home: BasePage(),
     );
   }
 }
